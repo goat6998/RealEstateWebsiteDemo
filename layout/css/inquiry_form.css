@@ -1,0 +1,567 @@
+
+.inquiry_form_title h1{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+}
+.inquiry_form_title h1 i{
+	margin-right: 5px;
+}
+
+.inquiry_form_wrap{
+	margin-bottom: 3rem;
+}
+.inquiry_property h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inquiry_property div{
+	margin-bottom: 10px;
+}
+.inquiry_property div:last-child{
+	margin: 0;
+}
+
+.information_you_want_to_know_wrap{
+    width: 96% !important;
+    margin-left: 12px !important;
+	padding-bottom: 1rem !important;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #9e9e9e;
+	padding-left: 0 !important;
+	margin-top: 1rem;
+}
+.information_you_want_to_know_wrap i{
+	margin-right: 10px;
+	font-size: 20px;
+}
+.information_you_want_to_know_wrap div{
+	margin-bottom: 5px;
+}
+.information_you_want_to_know_wrap div:nth-child(2){
+	margin-bottom: 0;
+	padding-left: 28px;
+}
+
+.desired_date_of_visit_title{
+    margin-left: 13px !important;
+	margin-bottom: 10px;
+	padding-left: 0 !important;
+	line-height: 20px;
+}
+.desired_date_of_visit_title img{
+	width: 20px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+.desired_time2_wrap,
+.desired_date2_wrap,
+.desired_time_wrap,
+.desired_date_wrap{
+	margin-top: 0;
+}
+.second_choice_wrap,
+.first_choice_wrap{
+	margin-bottom: 1rem;
+}
+.first_choice_wrap{
+	padding-left: 0 !important;
+}
+.second_choice_wrap > div:first-child,
+.first_choice_wrap > div:first-child{
+	margin-left: 13px;
+}
+.second_choice_wrap{
+	padding-right: 0 !important;
+}
+.form_section_visa_type,
+.form_section_guarantor_speak_japanese{
+	padding-right: 24px !important;
+}
+
+.guarantor_title_wrap div:first-child{
+	margin-right: 1rem;
+}
+.guarantor_wrap{
+	padding-left: 0 !important;
+}
+.guarantor_wrap div:nth-child(2){
+	padding-left: 28px;
+}
+
+.speak_japanese_wrap,
+.guarantor_wrap{
+	border-bottom: 1px solid #9e9e9e;
+	padding-bottom: 1rem !important;
+	margin-bottom: 2rem;
+}
+.guarantor_wrap div:first-child{
+	line-height: 26px;
+	margin-bottom: 2.5px;
+}
+.speak_japanese{
+	padding: 0 !important;
+}
+.speak_japanese_wrap div:first-child{
+	margin-bottom: .6rem;
+}
+.speak_japanese_wrap div:nth-child(2){
+	padding-left: 10px !important;
+}
+.visa_type_wrap{
+	margin-bottom: 2rem;
+	padding-bottom: 1rem !important;
+	border-bottom: 1px solid #9e9e9e;
+	padding-left: 0 !important;
+}
+.visa_type_wrap div:first-child{
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+.visa_type_wrap div:first-child i{
+	font-size: 18px;
+}
+.visa_type_wrap div:nth-child(2){
+	padding-left: 28px !important;
+}
+.form_section_wrap{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.form_section_desired_size_wrap{
+	margin-bottom: 1rem;
+}
+
+.current_residence_top_wrap{
+	border-bottom: 1px solid #9e9e9e;
+	padding-left: 0 !important;
+}
+.current_residence_wrap{
+	padding-bottom: 1rem !important;
+	padding-left: 28px !important;
+}
+.current_residence_top_wrap div:first-child{
+	line-height: 26px;
+	margin-bottom: 4px;
+}
+.current_residence_top_wrap div:first-child i{
+	margin-right: 5px;
+}
+.profession_wrap{
+	margin-top: 2.7rem !important;
+	padding-right: 0 !important;
+}
+.inquiry_form_guide{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.visa_type_wrap div:first-child i,
+.guarantor_wrap div:first-child i,
+.speak_japanese_wrap div:first-child i{
+	margin-right: 10px;
+}
+
+.radio_button_ui{
+	padding-top: 1rem !important;
+}
+
+.floor_plan_checkbox [type="checkbox"]+span:before,
+.floor_plan_checkbox [type="checkbox"]+span:after,
+.inquiry_form_wrap [type="radio"]+span:before, 
+.inquiry_form_wrap [type="radio"]+span:after{
+	display: none !important;
+}
+.floor_plan_checkbox [type="checkbox"]:checked+span,
+.inquiry_form_wrap [type="radio"]:checked+span{
+	color: #fff;
+	background-color: mediumblue !important;
+}
+.floor_plan_checkbox [type="checkbox"]+span,
+.inquiry_form_wrap [type="radio"]+span{
+	margin-right: 5px;
+	margin-top: 5px;
+    padding: 4px 15px !important;
+    border-radius: 3px !important;
+    height: auto !important;
+    color: #333;
+    word-break: normal;
+    border: solid 1px mediumblue !important;
+    font-size: 13px;
+}
+
+.floor_plan_title_wrap{
+	margin-bottom: .5rem;
+	line-height: 23px;
+}
+.floor_plan_title_wrap div{
+	display: inline-block;
+}
+.floor_plan_title_wrap div:first-child{
+	margin-right: 1rem;
+    line-height: 18px;
+}
+.floor_plan_title_wrap div:first-child i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.floor_plan_wrap{
+    margin-bottom: 1.5rem !important;
+	padding-bottom: 10px !important;
+	border-bottom: 1px solid #9e9e9e;
+}
+
+.floor_plan_checkbox {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.floor_plan_checkbox [type="checkbox"]+span{
+	padding-left: 21px;
+	font-size: 13px;
+}
+.rent_price_wrap,
+.desired_size_wrap div:first-child{
+	padding-right: 0 !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	height: 30px;
+}
+.m_or_more_wrap span{
+    margin-top: 2.5rem;
+    display: block;
+}
+.form_section_search_area{
+	padding-left: 0 !important;
+	padding-right: 25px !important;
+    margin-left: 12px !important;
+    width: 98.5% !important;
+}
+
+.floor_plan_checkbox_wrap{
+	padding-left: 14px;
+}
+.rent_price_wrap i.fas{
+    text-align: center;
+    margin-top: 3px;
+    left: 0;
+	font-size: 18px !important;
+}
+.yen_or_less_wrap span{
+    margin-top: 2.5rem;
+    display: block;
+}
+
+.form_section_number_of_residents{
+	margin-bottom: 1rem;
+	padding-right: 15px !important;
+}
+
+.number_of_residents_radio{
+	padding-bottom: 1rem !important;
+	border-bottom: 1px solid #9e9e9e;
+}
+.number_of_residents_radio{
+	padding-left: 34px !important;
+}
+.number_of_residents div:first-child{
+	line-height: 20px;
+	margin-bottom: 1px;
+	padding-left: 0 !important;
+}
+.have_pets div:first-child i,
+.number_of_residents div:first-child i{
+	margin-right: 10px;
+}
+.have_pets div:nth-child(3){
+	margin: 0;
+}
+
+.form_section_moving_date{
+	margin-bottom: 2rem;
+}
+#message{
+	width: 96%;
+}
+.message_wrap{
+	margin-bottom: 2rem;
+	padding-right: 0;
+	padding-left: 0;
+}
+.message_wrap div:nth-child(2){
+	padding-left: 0 !important;
+}
+.inquiry_form_submit_wrap{
+	margin-bottom: 2rem;
+}
+
+.member_regist_password_form i{
+	left: 0;
+}
+.member_regist_password_wrap{
+	display: none;
+	margin-top: 1rem;
+}
+
+.contact_regist_member_guide{
+	margin-bottom: 1rem;
+}
+
+.contact_regist_member span{
+	padding-left: 21px !important;
+}
+
+@media screen and ( min-width: 1260px) {
+	.guarantor_wrap{
+		width: 38% !important;
+	}
+	.speak_japanese_wrap{
+		width: 62% !important;
+	    margin-top: 26px;
+	}
+	.search_area_wrap{
+		padding-left: 0 !important;
+		margin-top: 86px;
+	}
+}
+@media screen and ( min-width: 1166px) {
+	.search_area_wrap{
+		margin-bottom: 2rem;
+	}
+}
+@media screen and ( max-width: 1158px) {
+	.floor_plan_checkbox_wrap{
+		margin-bottom: .5rem;
+	}
+}
+@media screen and ( max-width: 1024px) {
+	.number_of_residents_radio{
+		padding-left: 0 !important;
+	}
+	.have_pets div:nth-child(3) {
+	    margin-top: 1rem;
+	}
+	.search_area_wrap{
+		margin-bottom: 3rem;
+	}
+	.floor_plan_checkbox_wrap{
+		width: 350px;
+	}
+	.have_pets div:nth-child(2){
+		text-align: center;
+	}
+	.visa_type_wrap div:nth-child(2){
+		width: 500px !important;
+	}
+}
+
+@media screen and ( max-width: 768px) {
+	.contact_form_title h1{
+		margin: 2rem 0 1rem 0;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.inquiry_property{
+		padding: 1rem !important;
+	}
+	.inquiry_property h5{
+		font-size: 1.3rem;
+	}
+	.radio_button_ui{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.guarantor_wrap{
+		margin-bottom: 1.5rem !important;
+	}
+	.floor_plan_title_wrap {
+    	margin-bottom: 1rem;
+    }
+	.guarantor_wrap div:nth-child(2) {
+	    padding-left: 35px;
+	}
+	.form_section_visa_type, .form_section_guarantor_speak_japanese {
+	    padding-right: 0 !important;
+	}
+	.speak_japanese_wrap div:nth-child(2) {
+	    padding-left: 34px !important;
+	}
+	.profession_wrap{
+		padding-left: 0 !important;
+	}
+	input[name="search_area"],
+	input[name="profession"]{
+		width: 96% !important;
+	}
+	.form_section_search_area {
+	    padding-left: 0 !important;
+	    padding-right: 0 !important;
+	    margin-left: 0 !important;
+	    width: 100% !important;
+	}
+	.search_area_wrap {
+		margin-top: 0;
+	    margin-bottom: 3rem;
+	    padding-left: 5px !important;
+	}
+	.floor_plan_wrap {
+	    padding-bottom: 5px !important;
+	}
+	.floor_plan_wrap div:nth-child(2){
+		text-align: left;
+	}
+	.floor_plan_checkbox_wrap{
+		margin-bottom: 10px;
+	}
+	.form_section_number_of_residents {
+	    margin-bottom: 0rem;
+	}
+	.stay_in_japan,
+	.number_of_residents{
+		margin-bottom: 2rem;
+	}
+	.rent_price_main_wrap{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.first_choice_wrap{
+	    padding-right: 0 !important;
+	}
+	.second_choice_wrap {
+	    padding-left: 0 !important;
+	}
+}
+@media screen and ( max-width: 545px) {
+	.floor_plan_checkbox_wrap{
+		padding-left: 0 !important;
+	}
+}
+
+@media screen and ( max-width: 414px) {
+	.contact_form_title h1{
+		margin-top: 1rem;
+	}
+	.container {
+	    width: 95% !important;
+	}
+	.contact_form_title h1{
+		font-size: 1.2rem;
+		line-height: 20px;
+	}
+	.contact_form_title h1 i{
+		font-size: 20px;
+	}
+	.speak_japanese_wrap{
+		padding-right:0 !important;
+		padding-left:0 !important;
+	}
+	.speak_japanese_wrap div:nth-child(2) {
+	    padding-left: 0 !important;
+	}
+	.visa_type_wrap div:nth-child(2){
+	    width: 293px !important;
+	    margin: 0 auto;
+	    float: none;
+	    padding-left: 0 !important;
+	}
+	.form_section_number_of_residents {
+	    padding-right: 0 !important;
+	}
+	input[name="search_area"],
+	input[name="profession"]{
+		width: 92% !important;
+	}
+	.floor_plan_checkbox_wrap{
+		margin-bottom: 10px;
+	}
+	.floor_plan_checkbox [type="checkbox"]+span {
+	    width: 85px;
+	    text-align: center;
+	}
+	.floor_plan_checkbox:nth-child(5){
+		margin-right: 95px;
+	}
+	.number_of_residents_radio {
+	    padding-left: 0 !important;
+	}
+	.have_pets{
+		margin-bottom: 1rem;
+	}
+}
+@media screen and ( max-width: 375px) {
+	.speak_japanese{
+		width: 75% !important;
+	    margin: 0 auto;
+	    float: none !important;
+	}
+	.number_of_residents_radio{
+	    width: 185px !important;
+	    border: 0;
+	    margin-left: 35px;
+	}
+	.number_of_residents{
+		border-bottom: 1px solid #9e9e9e;
+	}
+}
+@media screen and ( max-width: 360px) {
+	.current_residence_wrap {
+	    padding-left: 0 !important;
+	}
+}
+@media screen and ( max-width: 320px) {
+	.inquiry_property,
+	.floor_plan_wrap,
+	.inquiry_form_guide,
+	.current_residence_wrap,
+	.current_residence_top_wrap,
+	.guarantor_wrap div:nth-child(2),
+	.guarantor_wrap{
+		padding-right:0 !important;
+		padding-left:0 !important;
+	}
+	.information_you_want_to_know_wrap div:nth-child(2) {
+	    padding-left: 0;
+	}
+	.visa_type_wrap div:nth-child(2) {
+	    width: 230px !important;
+	}
+	.floor_plan_checkbox {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+}
+@media screen and ( max-width: 280px) {
+	.get_inquiry_form_wrap{
+	    padding: 0 !important;
+	}
+	.speak_japanese {
+	    width: 100% !important;
+	}
+	.floor_plan_title_wrap{
+		padding-left: 10px;
+	}
+	.floor_plan_checkbox [type="checkbox"]+span {
+	    width: 83px;
+	}
+	.floor_plan_checkbox:nth-child(7),
+	.floor_plan_checkbox:nth-child(5) {
+	    margin-right: 83px;
+	}
+	.floor_plan_checkbox:last-child [type="checkbox"]+span {
+	    width: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+

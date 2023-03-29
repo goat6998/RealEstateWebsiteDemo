@@ -1,0 +1,337 @@
+
+/* top image */
+.container_home_header{
+	width: 100% !important;
+	max-width: 100% !important;
+	position: relative;
+}
+.container_home_header div:first-child{
+	margin-bottom: 0 !important;
+}
+
+.container_home {
+    width: 90% !important;
+}
+
+.site_image_wrap{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.site_image_wrap img{
+	width: 100%;
+	vertical-align: bottom;
+}
+
+
+/* 検索フォーム */
+.search_form_home > div:first-child{
+	padding-bottom: 20px !important;
+}
+.search_form_home > div.property_name_search_wrap{
+	margin: 0 !important;
+	padding-top: 5px !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span,
+.select-wrapper input.select-dropdown,
+.search_form_home{
+	font-size: 14px !important;
+}
+
+.property_name_search_wrap{
+	padding-bottom: 5px !important;
+}
+
+#home_search{
+	position: absolute;
+	top: 20%;
+    right: 5%;
+    z-index: 1;
+}
+
+.search_form_home > div{
+	padding: 10px !important;
+	background-color: white;
+}
+
+h2{
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #ddd;
+    font-weight: bold;
+}
+.btn_remodal_property_layout i,
+.btn_remodal_property_layout{
+	height: 46px;
+    line-height: 46px;
+}
+.btn_remodal_property_layout{
+	width: 100%;
+    border-bottom: 1px solid #9e9e9e;
+    display: block;
+    color: #333;
+    cursor: pointer;
+}
+.btn_remodal_property_layout i{
+	font-size: 24px;
+}
+.search_property_layout_remodal_title {
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    border-bottom: solid 1px #e0e0e0;
+    margin-bottom: 1rem;
+}
+.remodal_property_layout .modal-footer div,
+.checkbox_property_layout{
+	display: inline-block;
+}
+.remodal_property_layout .modal-footer{
+	padding: 1rem;
+}
+.checkbox_property_layout [type="checkbox"]+span{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 22px;
+	color: #333;
+	font-size: 15px;
+}
+.remodal_property_layout .modal-footer div{
+	width: 40%;
+}
+.remodal_property_layout{
+	padding: 1rem 2rem .5rem 2rem !important;
+}
+.floor_plan_all{
+	display: none;
+}
+.search_modal_wrap{
+	position: relative;
+}
+.modal-close{
+	position: absolute;
+	top:0;
+	left:0;
+}
+input[name="property_name"]::placeholder{
+	font-size: 15px;
+}
+.search_form_btn_sp{
+	float: none !important;
+}
+
+/* 物件一覧 */
+.property_type div{
+	display: inline-block;
+}
+.home_sub_title{
+	margin: 1rem 2rem 1rem 0;
+}
+
+.home_sub_title h2{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+.swiper_wrap{
+	margin-bottom: 2rem;
+}
+
+/* アーカイブ */
+.archive_title{
+	margin-bottom: 5px;
+}
+.archive_content h4,
+.archive_title h3{
+	margin: 0;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+/* お知らせ */
+.notice div, .how_to div, .area_info div{
+	display: inline-block;
+}
+.notice div:first-child, .how_to div:first-child, .area_info div:first-child{
+	margin-right: 2rem;
+}
+
+.archive_list div:first-child{
+	overflow: hidden;
+	white-space: nowrap;
+}
+.home_archive_thumbnail_wrap img{
+	max-width: 303px;
+	width: 100%;
+	height: auto;
+}
+
+/* メディアリンク */
+
+
+/* サイトインフォ, widget_main_media_link */
+#widget_site_info{
+	padding: 15px;
+}
+
+#widget_site_info li{
+	list-style: none;
+	padding: 7px 5px !important;
+	display: block;
+}
+#widget_site_info li h2, #widget_main_media_link h2{
+	display: none;
+}
+#widget_site_info li img{
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+.media_link_title{
+	margin-bottom: 0;
+}
+
+.swiper_media{
+	margin-bottom: 2rem;
+}
+#widget_main_media_link li div{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	max-width: 303px !important;
+	height: 140px;
+}
+
+#widget_main_media_link li img{
+	width:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    object-fit: contain;
+}
+
+.property_type a{
+    display: block;
+}
+
+.btn_search_form{
+	display: none;
+}
+
+#widget_site_info{
+	width: 1075px;
+	margin: 0 auto 2rem auto;
+}
+
+
+@media screen and ( max-width: 1200px) {
+	#home_search{
+		top: 10%;
+	}
+}
+@media only screen and (max-width: 1199px){
+	#widget_site_info{
+		width: 805px;
+	}
+}
+@media only screen and (min-width: 1024px){
+	#widget_site_info{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.container_home {
+		width: 100% !important;
+	}
+	.home_sub_title{
+		margin-left: 1rem;
+	}
+	.form_select_price .dropdown-content{
+		width: 110% !important;
+	}
+}
+@media only screen and (max-width: 1023px){
+	#widget_site_info{
+		width: 565px;
+	}
+}
+
+/* ホーム */
+@media only screen and (max-width: 960px){
+	.container_home_header div:first-child{
+		margin-bottom: 10px !important;
+	}
+	.search_form_pc{
+		display: none;
+	}
+	.btn_search_form{
+		display: block;
+	}
+	.search_form_station_sp_wrap{
+		display: block;
+	}
+/* 沿線、地域 */
+	.search_form_area_tablet,
+	.search_form_station_tablet{
+		display: block;
+	}
+}
+
+@media screen and ( max-width: 580px) {
+	#widget_site_info{
+		width: 100%;
+	}
+	#widget_site_info li{
+		max-width: 49% !important;
+    	padding: 9px 5px !important;
+	}
+}
+@media only screen and (max-width: 540px){
+	.search_form_sp{
+	    padding-bottom: 5rem !important;
+	}
+	#widget_main_media_link li div{
+		max-width: 100% !important;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 539px){
+	.home_archive_thumbnail_wrap img{
+		max-width: 100% !important;
+	}
+}
+@media screen and ( max-width: 500px) {
+	.parallax-container {
+		height: 200px;
+	}
+}
+@media screen and ( max-width: 414px) {
+	.swiper_wrap{
+		max-width: 100%;
+		padding-right: 2rem !important;
+		padding-left: 2rem !important;
+	}
+	.modal .modal-content{
+		padding: 0 !important;
+	}
+	#widget_site_info li{
+		max-width: 100% !important;
+	}
+}
+@media screen and ( max-width: 320px) {
+	.swiper_wrap{
+		padding-right: 1rem !important;
+		padding-left: 1rem !important;
+	}
+	#widget_site_info{
+		padding: .3rem;
+	}
+}
+
+
+

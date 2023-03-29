@@ -1,0 +1,256 @@
+
+/* 物件一覧 */
+.search_form_wrap{
+	padding-right: 0 !important;
+}
+
+.property_list_body{
+	max-width: 1260px;
+	width: 100% !important;
+}
+.search_results{
+	margin-bottom: 1rem;
+}
+.btn_sort_pc{
+	margin-bottom: 2rem;
+}
+.btn_sort_pc .en:nth-child(2) a{
+	font-size: 13px !important;
+}
+.search_form{
+	width: 390px !important;
+	padding-right: 0 !important;
+	padding-left: 10px !important;
+}
+
+.search_results div:nth-child(1){
+	text-align: center;
+}
+
+.property_wrap{
+	padding: 15px;
+	padding-left: 30px;
+	margin: auto 7%;
+	margin-bottom: 30px;
+}
+
+.btn_sort_sp_wrap{
+	display: none;
+}
+
+.search_modal_wrap{
+	position: relative;
+}
+
+.btn_submit_wrap{
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
+
+
+/* サーチ　物件一覧 */
+@media screen and ( min-width: 1249px) {
+	.property_list_main_wrap{
+		padding-left: 0 !important;
+	}
+	.property_list_out_wrap{
+		padding: 0 !important;
+		width: 856px !important;
+	}
+	.property_list_wrap{
+		padding: 0 !important;
+		width: 280px !important;
+		padding-left: 15px !important;
+	}
+	.property_list{
+		width: 100% !important;
+		padding: 0 !important;
+	}
+}
+@media screen and ( max-width: 1248px) {
+	.property_list_main_wrap{
+		width: 100% !important;
+	}
+	.btn_sort_pc,
+	.search_form{
+		display: none;
+	}
+	.search_results{
+		margin-top: 10px;
+	}
+	.search_results div:nth-child(2){
+		text-align: center;
+	}
+	.btn_sort_sp_wrap{
+		display: block;
+		padding: 1rem;
+		margin-bottom: 2rem;
+	}
+	.side_form_open{
+		float: none !important;
+		max-width: 230px;
+		font-size: 14px !important;
+	}
+/* 検索ボタン */
+	.btn_sort_sp_wrap{
+		width: 854px !important;
+	    margin: 0 auto 20px auto;
+	    float: none !important;
+	    overflow: hidden;
+	    height: 46px;
+    }
+	.side_form_open_wrap > .en i{
+		font-size: 20px !important;
+		line-height: 36px;
+		margin-right: 10px;
+		margin-left: 0;
+	}
+	
+	.property_list_out_wrap{
+		width: 854px !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+	#modal-search .modal-close{
+		position: absolute;
+	    top: -.5rem;
+	    left: -.5rem;
+	}
+
+}
+@media screen and ( min-width: 889px) and ( max-width: 1248px) {
+	.property_list_out_wrap{
+		width: 100% !important;
+	}
+	.property_list{
+		width: 100%;
+	}
+}
+
+@media screen and ( max-width: 1024px) {
+	.search_results {
+	    margin-top: 1.5rem;
+	}
+}
+@media screen and ( max-width: 888px) {
+	.btn_sort_sp_wrap{
+	    width: 100% !important;
+	}
+}
+@media screen and ( min-width: 769px) and ( max-width: 882px) {
+	.property_list_out_wrap {
+	    width: 100% !important;
+	}
+}
+@media screen and ( max-width: 768px) {
+	.search_property_body{
+		width: 100% !important;
+	}
+	.property_list_out_wrap{
+		width: 100% !important;
+	}
+}
+@media screen and ( max-width: 600px) {
+	.property_list_out_wrap{
+		width: 386px !important;
+	}
+}
+
+@media screen and ( max-width: 540px) {
+/* 検索ボタン */
+	.side_form_open_wrap > .en {
+		line-height: 14px;
+		padding: 4px 15px;
+	}
+	.side_form_open_wrap > .en i{
+		line-height: 33px;
+	}
+}
+@media screen and ( max-width: 414px) {
+	.search_form_btn_sp{
+		width: 100%;
+	}
+	.side_form_open_wrap > .en {
+	    line-height: 15px;
+	    padding: 3px 3px 3px 10px;
+	    font-size: 13px !important;
+	}
+	.search_form_btn_sp > i{
+		margin-right: 5px;
+	}
+	.side_form_open_wrap > .en i{
+		line-height: 37px;
+		margin-right: 0;
+	}
+}
+@media screen and ( max-width: 375px) {
+	.property_list_out_wrap {
+	    width: 100% !important;
+	}
+/* 検索ボタン */
+	.side_form_open_wrap > .en {
+		line-height: 15px;
+		font-size: 13px !important;
+		padding: 2.5px;
+	}
+	.side_form_open_wrap > .en i{
+		font-size: 20px !important;
+		line-height: 33px;
+		margin-right: 0px;
+		margin-left: 10px;
+	}
+}
+@media screen and ( max-width: 360px) {
+/* 検索ボタン */
+	.side_form_open_wrap > .en {
+		line-height: 15px;
+		font-size: 13px !important;
+	}
+	.side_form_open_wrap > button > i.en {
+	    margin-top: 0;
+	}
+	.search_form_btn_sp .ja{
+		margin-right: 5px;
+	}
+}
+@media screen and ( max-width: 320px) {
+	.property_list_out_wrap,
+	.property_list_wrap{
+		padding: 0 !important;
+	}
+/* 検索ボタン */
+	.btn_sort_sp_wrap{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.side_form_open_wrap > button {
+		font-size: 13px !important;
+		padding: 0 15px;
+		width: 100%;
+	}
+	.side_form_open_wrap > button > i {
+	    margin-right: 3px !important;
+	}
+}
+@media screen and ( max-width: 280px) {
+	.property_list{
+		margin: 0 auto 1.5rem auto;
+	}
+/* 検索ボタン */
+	.search_form_btn_sp {
+	    padding: 0 8px;
+	    width: 100%;
+	}
+	.search_form_btn_sp i{
+		margin-right: 0;
+	}
+/* en */
+	.side_form_open_wrap > .en i {
+	    font-size: 18px !important;
+	    line-height: 15px;
+	    padding: 1px 0 0 2px;
+	}
+}
+
+
+

@@ -1,0 +1,133 @@
+
+/* スマホスライドメニュー */
+nav .brand-logo{
+	position: relative !important;
+	float: left;
+	left: 1rem !important;
+}
+.header_icons{
+	position: absolute;
+	right: 50px;
+}
+.header_icons a{
+	color: #333;
+	height: 64px;
+}
+@media screen and ( max-width: 1130px) {
+	.side_menu_btn,
+	.nav_sptab{
+		display: block !important;
+	}
+	.container_header{
+		display: none;
+	}
+	.header_sp{
+		width: 90% !important;
+	}
+}
+@media screen and ( max-width: 992px) {
+	nav .brand-logo{
+		left: 4.8rem !important;
+	}
+}
+@media screen and ( max-width: 600px) {
+	.header_icons a i,
+	.header_icons a{
+		height: 56px;
+		line-height: 56px;
+	}
+}
+@media screen and ( max-width: 375px) {
+	nav .brand-logo{
+		left: 4rem !important;
+	}
+	.header_icons {
+	    right: 35px;
+	}
+	.header_icons a{
+		padding: 0 13px;
+	}
+	nav .sidenav-trigger{
+		margin-right: 5px !important;
+	}
+}
+
+@media screen and ( max-width: 320px) {
+	.header_icons {
+	    right: 30px;
+	}
+	.header_icons a{
+		padding: 0 9px;
+	}
+	nav .sidenav-trigger{
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and ( max-width: 280px) {
+	.logo_sp{
+		width: 100px;
+	}
+	nav .brand-logo{
+		left: 3rem !important;
+	}
+	.header_icons {
+	    right: 25px;
+	}
+	.header_icons a{
+		padding: 0 9px;
+	}
+	nav .sidenav-trigger{
+		margin-right: 0 !important;
+	}
+}
+
+/* フッター */
+@media screen and ( max-width: 960px) {
+	.company_name, .company_tel{
+		font-size: 18px;
+	    font-weight: bold;
+	}
+}
+
+
+/* パララックス共通 */
+@media only screen and (max-width: 1024px){
+	.parallax-container{
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 960px){
+	.parallax-container{
+		height: 350px;
+	}
+}
+@media screen and ( max-width: 836px) {
+	.parallax-container{
+		height: 300px;
+	}
+}
+@media screen and ( max-width: 640px) {
+	.parallax-container {
+		height: 250px;
+	}
+}
+@media screen and ( max-width: 500px) {
+	.parallax-container {
+		height: 200px;
+	}
+}
+
+
+.privacy_policy_wrap{
+	margin-bottom: 2rem;
+}
+.privacy_policy_btn{
+	line-height: 34px !important;
+}
+.remodal-confirm{
+	padding: 0 1rem 0 1rem;
+	line-height: 36px;
+	max-width: 300px;
+}
+

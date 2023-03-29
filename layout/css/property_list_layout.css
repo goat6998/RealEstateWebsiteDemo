@@ -1,0 +1,124 @@
+.property_link{
+	text-decoration: none !important;
+	display: block;
+}
+.catchphrase{
+	text-align: center;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.catchphrase h4{
+	font-weight: normal;
+	margin: 0;
+	font-size:13.2px;
+}
+
+.property_list{
+	min-width: 260px;
+	max-width: 386px;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 1rem;
+}
+.members_only{
+    width: 100%;
+    height: 100%;
+	background-color: rgba( 255, 255, 255, 0.9);
+	position:relative;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.members_only span{
+	width: 100%;
+	font-size: 3em;
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	text-shadow: 1px 1px 2px #ddd;
+}
+
+.property_image_wrap{
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.property_image{
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+	z-index: 1;
+}
+.no_image{
+	width: 100%;
+}
+.no_image img{
+	width: 100%;
+}
+.property_image_overlay{
+	position:absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 2;
+}
+.property_image_overlay:hover{
+	opacity: 100;
+	filter: alpha(opacity=100);
+	-moz-opacity: 100;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.property_image_overlay img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+}
+.sold{
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background-color: gold;
+	color: white;
+	padding: 5px 10px;
+	text-shadow: 1px 1px 2px #333;
+}
+.property_data{
+	padding: 7px;
+	color: #333;
+	overflow: hidden;
+	height: 92px;
+	background-color:#eee;
+}
+.property_data h3{
+	margin: 0;
+	font-size: 1em !important;
+}
+@media screen and ( max-width: 540px) {
+	.property_list{
+		margin-right:auto;
+		margin-left:auto;
+	}
+}
+
+

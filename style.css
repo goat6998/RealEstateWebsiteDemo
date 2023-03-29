@@ -1,0 +1,394 @@
+@charset "utf-8";
+/*
+Theme Name: Iepedia
+*/
+
+/* 共通 */
+body{
+	font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	color: #333;
+	font-size: 15px !important;
+	-webkit-text-size-adjust: 100%;
+}
+
+@media screen and ( max-width: 1024px) {
+	html,body { height:100%; }
+	body {
+	    overflow-y: scroll;
+	    scroll-behavior: auto;
+	    /*
+	    -webkit-overflow-scrolling: touch;
+	    */
+	}
+}
+
+.theme_color{
+	color: #006a6c;
+}
+
+.side_menu_btn{
+    float: right !important;
+}
+.material-icons{
+	font-size: 24px;
+}
+
+/* ヘッダー */
+header nav a{
+	color: #333;
+}
+
+.container_header,
+.site_image{
+	position: relative;
+}
+.container_header{
+	width: 100%;
+}
+.header_left{
+	width: 27%;
+}
+.logo_link{
+	position: absolute;
+	top: 1rem;
+    left: 1rem;
+}
+.logo{
+	max-width: 310px;
+}
+.header_right{
+	width: 73%;
+}
+.header_nav{
+	text-align: right;
+	margin-bottom: 5px;
+}
+.header_nav div{
+	display: inline-block;
+}
+.header_right_bottom{
+	padding-right: 10px !important;
+}
+.header_right_bottom > div{
+	margin-left: 1.5rem;
+	float: right;
+}
+.login_area{
+	margin-bottom: 5px;
+}
+
+@media screen and ( max-width: 1257px) {
+	.login_area{
+		margin-bottom: 1rem;
+	}
+	.header_right_bottom{
+		padding-left: 1% !important;
+	}
+}
+
+.header_contact_line{
+	padding-top: 7px;
+	line-height: 24px;
+}
+.icon_line{
+	width: 25px;
+	padding-right: 5px;
+	vertical-align: middle;
+	padding-bottom: 2px;
+}
+
+.header_contact_messenger{
+	padding-top: 8px;
+}
+.icon_messenger{
+	width: 26px;
+	padding-right: 5px;
+	vertical-align: middle;
+	padding-bottom: 1px;
+}
+.header_contact_phone{
+	padding-top: 6px;
+	font-size: 1.2em;
+}
+.header_contact_phone i{
+	padding-bottom: 2px;
+	font-size: 20px;
+}
+
+.header_nav div:first-child > ul{
+	margin-bottom: 10px !important;
+}
+.header_nav div:first-child > ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.header_nav div:first-child > ul li:before{
+	content:"\025a0";
+}
+.header_nav div:first-child > ul li a:hover{
+	text-decoration: underline;
+}
+
+/* ヘッダースマホ */
+.nav_sptab{
+	display: none;
+}
+.side_menu li a .fas{
+	font-size: 20px;
+}
+.side_menu_btn i{
+	color:#333;
+}
+
+/* コンテンツ */
+label{
+	color:#333 !important;
+}
+
+.bgwhite{
+	background-color: white !important;
+}
+
+.bgnone{
+	background: none !important;
+	background-color: none !important;
+}
+
+.padding0{
+	padding: 0 !important;
+}
+
+.middle{
+	vertical-align: middle;
+}
+.bottom{
+	vertical-align: bottom;
+}
+
+.error{
+	color: red;
+}
+
+.parallax_wrap{
+	position:relative;
+}
+.parallax img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.btn{
+	font-size: 15px !important;
+}
+.dropdown-content li>a{
+	font-size: 15px !important;
+}
+.input-field .prefix ~ textarea,
+.input-field .prefix ~ input,
+.input-field .prefix ~ label {
+    margin-left: 2rem !important;
+    font-size: 15px;
+    line-height: 30px;
+}
+.input-field .prefix{
+	font-size: 20px !important;
+	top: 1rem !important;
+}
+.input-field>input[type]:-webkit-autofill:not(.browser-default):not([type="search"])+label{
+	transform: translateY(-20px) scale(0.8);
+}
+
+.privacy_policy_body h4{
+	font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+/* フッター */
+footer{
+	background-color: paleturquoise !important;
+}
+@media only screen and (min-width: 993px){
+	.container_footer{
+		width: 80% !important;
+	}
+}
+
+/* フッター左 */
+/* メニュー */
+
+.footer_menu h6{
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+.footer_menu > ul{
+	margin-top: 5px;
+}
+.footer_menu > ul > li{
+	display: inline-block;
+	margin-right:10px;
+}
+
+.footer_menu > ul > li > a{
+	color: #333;
+}
+
+.footer_menu > ul > li+li {
+	border-left:1px solid #999;
+	padding-left:10px;
+}
+
+.footer_menu > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+/* フッター右 */
+.footer_logo_wrap{
+	max-width: 300px;
+}
+.footer_logo{
+	max-width: 260px;
+}
+/* メディアリンク */
+.footer_media_link ul li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.footer_media_link ul li a:hover{
+	opacity: 0.7;
+}
+
+.footer_media_link ul li a img{
+	width: 60px;
+}
+
+@media screen and ( max-width: 414px) {
+	.footer_menu{
+		margin-bottom: 1rem;
+	}
+	.company_wrap{
+		text-align: left;
+	}
+	.footer_logo_wrap,
+	.footer_logo {
+	    max-width: 190px;
+	}
+}
+
+/* コピーライト */
+.footer-copyright{
+	color: #333 !important;
+	font-weight: bold !important;
+	text-shadow: 1px 1px 2px #fcfcfc;
+	text-align: center;
+}
+address{
+	font-style: normal;
+}
+h2.sub_title{
+	color: #006a6c !important;
+	border-bottom: 2px solid #006a6c;
+	padding-top: 20px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	line-height: 110%;
+	margin: 0 0 .656rem 0;
+	font-weight: 400;
+	text-align: center;
+	font-weight: bold;
+}
+.company_name, .company_tel{
+	font-size: 1.3rem;
+	color: #333;
+}
+
+.logo_sp{
+	max-width: 130px;
+	vertical-align: middle;
+}
+
+
+/* ページネーション */
+.wp_pagenavi_wrap{
+	padding-top: 1.5rem !important;
+}
+.wp-pagenavi{
+	padding: 1rem;
+}
+.wp-pagenavi > span{
+	display: none;
+}
+.wp-pagenavi a, .wp-pagenavi span.current{
+	border-radius: 50% !important;
+	margin: 0 .5rem 0 .5rem;
+	font-size: 15px !important;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 !important;
+	color: teal;
+	border-color: teal !important;
+	font-weight: normal;
+}
+.wp-pagenavi span.current{
+	color: white !important;
+	background-color: teal !important;
+	border-color: teal !important;
+	font-weight: bold;
+}
+.wp-pagenavi a:hover{
+	color: white !important;
+	background-color: teal !important;
+	border-color: teal !important;
+}
+.previouspostslink i,
+.firstpostslink i{
+	margin-right: 2px;
+}
+.nextpostslink i,
+.lastpostslink i{
+	margin-left: 2px;
+}
+
+@media screen and ( max-width: 600px) {
+	.wp-pagenavi a{
+		margin-bottom: 1rem;
+	}
+}
+
+
+/* ページトップスクロール */
+#page-top {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+    left: 25px;
+	font-size: 1.5rem;
+	line-height: 1;
+	z-index: 99;
+}
+#page-top a {
+	text-decoration: none;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	line-height: 62px;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	opacity: 0.9;
+	transition: all .3s ease;
+}
+#page-top a:hover {
+	text-decoration: none;
+	opacity: .5;
+}
+
+
+
+
+

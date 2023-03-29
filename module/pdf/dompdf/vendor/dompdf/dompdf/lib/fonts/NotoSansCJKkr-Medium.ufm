@@ -1,0 +1,72 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+FontSubfamily Medium-Alphabetic
+UniqueID FontForge 2.0 : NotoSansCJKkr-Medium-Alphabetic : 13-12-2020
+Version Version 1.0
+PostScriptName NotoSansCJKkr-Medium-Alphabetic
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 50
+UnderlinePosition -125
+FontHeightOffset 90
+Ascender 809
+Descender -247
+FontBBox 21 -247 977 809
+StartCharMetrics 55
+U 65313 ; WX 1000 ; N Identity.59024 ; G 3
+U 65314 ; WX 1000 ; N Identity.59025 ; G 4
+U 65315 ; WX 1000 ; N Identity.59026 ; G 5
+U 65316 ; WX 1000 ; N Identity.59027 ; G 6
+U 65317 ; WX 1000 ; N Identity.59028 ; G 7
+U 65318 ; WX 1000 ; N Identity.59029 ; G 8
+U 65319 ; WX 1000 ; N Identity.59030 ; G 9
+U 65320 ; WX 1000 ; N Identity.59031 ; G 10
+U 65321 ; WX 1000 ; N Identity.59032 ; G 11
+U 65322 ; WX 1000 ; N Identity.59033 ; G 12
+U 65323 ; WX 1000 ; N Identity.59034 ; G 13
+U 65324 ; WX 1000 ; N Identity.59035 ; G 14
+U 65325 ; WX 1000 ; N Identity.59036 ; G 15
+U 65326 ; WX 1000 ; N Identity.59037 ; G 16
+U 65327 ; WX 1000 ; N Identity.59038 ; G 17
+U 65328 ; WX 1000 ; N Identity.59039 ; G 18
+U 65329 ; WX 1000 ; N Identity.59040 ; G 19
+U 65330 ; WX 1000 ; N Identity.59041 ; G 20
+U 65331 ; WX 1000 ; N Identity.59042 ; G 21
+U 65332 ; WX 1000 ; N Identity.59043 ; G 22
+U 65333 ; WX 1000 ; N Identity.59044 ; G 23
+U 65334 ; WX 1000 ; N Identity.59045 ; G 24
+U 65335 ; WX 1000 ; N Identity.59046 ; G 25
+U 65336 ; WX 1000 ; N Identity.59047 ; G 26
+U 65337 ; WX 1000 ; N Identity.59048 ; G 27
+U 65338 ; WX 1000 ; N Identity.59049 ; G 28
+U 65345 ; WX 1000 ; N Identity.59056 ; G 29
+U 65346 ; WX 1000 ; N Identity.59057 ; G 30
+U 65347 ; WX 1000 ; N Identity.59058 ; G 31
+U 65348 ; WX 1000 ; N Identity.59059 ; G 32
+U 65349 ; WX 1000 ; N Identity.59060 ; G 33
+U 65350 ; WX 1000 ; N Identity.59061 ; G 34
+U 65351 ; WX 1000 ; N Identity.59062 ; G 35
+U 65352 ; WX 1000 ; N Identity.59063 ; G 36
+U 65353 ; WX 1000 ; N Identity.59064 ; G 37
+U 65354 ; WX 1000 ; N Identity.59065 ; G 38
+U 65355 ; WX 1000 ; N Identity.59066 ; G 39
+U 65356 ; WX 1000 ; N Identity.59067 ; G 40
+U 65357 ; WX 1000 ; N Identity.59068 ; G 41
+U 65358 ; WX 1000 ; N Identity.59069 ; G 42
+U 65359 ; WX 1000 ; N Identity.59070 ; G 43
+U 65360 ; WX 1000 ; N Identity.59071 ; G 44
+U 65361 ; WX 1000 ; N Identity.59072 ; G 45
+U 65362 ; WX 1000 ; N Identity.59073 ; G 46
+U 65363 ; WX 1000 ; N Identity.59074 ; G 47
+U 65364 ; WX 1000 ; N Identity.59075 ; G 48
+U 65365 ; WX 1000 ; N Identity.59076 ; G 49
+U 65366 ; WX 1000 ; N Identity.59077 ; G 50
+U 65367 ; WX 1000 ; N Identity.59078 ; G 51
+U 65368 ; WX 1000 ; N Identity.59079 ; G 52
+U 65369 ; WX 1000 ; N Identity.59080 ; G 53
+U 65370 ; WX 1000 ; N Identity.59081 ; G 54
+EndCharMetrics
+EndFontMetrics
