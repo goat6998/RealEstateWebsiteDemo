@@ -6,27 +6,6 @@
 
 
       <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v9.0'
-          });
-        };
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="441181146052006"
-  theme_color="#006a6c">
-      </div>
-
 
 	<p id="page-top"><a href="#" class="teal"><i class="fas fa-arrow-up"></i></a></p>
 	
@@ -62,7 +41,7 @@ foreach( $footer_menu as $key => $value ){
     		
     <div class="footer-copyright">
 	    <div class="container">
-	            <address><p>Copyright &copy; <?php echo date('Y'); ?> · DG Group · All Rights Reserved.</p></address>
+	            <address><p>Copyright &copy; <?php echo date('Y'); ?> · sample · All Rights Reserved.</p></address>
 	    </div>
 	</div>
 		
@@ -72,18 +51,6 @@ foreach( $footer_menu as $key => $value ){
 
 
 <?php wp_footer(); ?>
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4770804-22"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-gtag('config', 'UA-4770804-22');
-</script>
 
 
 </body>
